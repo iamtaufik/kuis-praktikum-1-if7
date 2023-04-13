@@ -10,40 +10,44 @@
   <body>
     <div class="container">
       <div class="layout">
-        <div class="result"></div>
+        <div id="result">
+          <!-- <button onclick="handleToggle()">Light Mode</button> -->
+          <h1></h1>
+        </div>
         <div class="btns-container">
           <div class="buttons">
-            <div class="button">C</div>
-            <div class="button">%</div>
-            <div class="button">DEL</div>
-            <div class="button">/</div>
+            <button class="button" onclick="displayVal(this)">C</button>
+            <button class="button" onclick="displayVal(this)">%</button>
+            <button class="button" onclick="displayVal(this)">DEL</button>
+            <button class="button" onclick="displayVal(this)">/</button>
           </div>
           <div class="buttons">
-            <div class="button">7</div>
-            <div class="button">8</div>
-            <div class="button">9</div>
-            <div class="button">X</div>
+            <button class="button" onclick="displayVal(this)">7</button>
+            <button class="button" onclick="displayVal(this)">8</button>
+            <button class="button" onclick="displayVal(this)">9</button>
+            <button class="button" onclick="displayVal(this)">*</button>
           </div>
           <div class="buttons">
-            <div class="button">4</div>
-            <div class="button">5</div>
-            <div class="button">6</div>
-            <div class="button">-</div>
+            <button class="button" onclick="displayVal(this)">4</button>
+            <button class="button" onclick="displayVal(this)">5</button>
+            <button class="button" onclick="displayVal(this)">6</button>
+            <button class="button" onclick="displayVal(this)">-</button>
           </div>
           <div class="buttons">
-            <div class="button">1</div>
-            <div class="button">2</div>
-            <div class="button">3</div>
-            <div class="button">+</div>
+            <button class="button" onclick="displayVal(this)">1</button>
+            <button class="button" onclick="displayVal(this)">2</button>
+            <button class="button" onclick="displayVal(this)">3</button>
+            <button class="button" onclick="displayVal(this)">+</button>
           </div>
           <div class="buttons">
-            <div class="button">00</div>
-            <div class="button">0</div>
-            <div class="button">,</div>
-            <div class="button">=</div>
+            <button class="button" onclick="displayVal(this)">00</button>
+            <button class="button" onclick="displayVal(this)">0</button>
+            <button class="button" onclick="displayVal(this)">,</button>
+            <button class="button" onclick="displayVal(this)">=</button>
           </div>
         </div>
       </div>
     </div>
+    <script src="js/index.js"></script>
   </body>
 </html>
